@@ -1,0 +1,107 @@
+body {
+  background-image: url('city.png');
+}
+
+
+.Page{
+  display: flex;
+  justify-content: center;
+}
+
+.MenuBut{
+  position: fixed;
+  background: #55505C;
+  min-height: 35px;
+  min-width: 35px;
+  right: 30px;
+  color: #EFEAEA;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.dropMenu{
+  margin-top: 50px;
+  padding: 0px;
+}
+
+.AddPlace{
+  height: auto;
+  width: 340px;
+  background: #5D737E;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: roboto;
+  color: #EFEAEA;
+  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+#form_name {
+  display: grid;
+  height: 40px;
+  grid-template-columns: 1fr 50px;
+}
+
+.NameInput {
+  background: #55505C;
+  border: none;
+  border-top-left-radius: 10px;
+  color: #EFEAEA;
+  font-family: roboto;
+  padding-left: 10px;
+  font-size: 20px;
+  height: 50px;
+}
+
+.NameInput:placeholder {
+  color: white;
+}
+
+.Add{
+  color: #EFEAEA;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+
+.Text{
+  color: #EFEAEA;
+  font-family: roboto;
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.Description {
+  background-color: #909090;
+  border-width: 0px;
+  width: 290px;
+  height: 96px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.Theme {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 35px;
+  width: 450px;
+  margin-top: 30px;
+  background-color: #5D737E;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 13px;
+  color: #EFEAEA;
+  font-family: roboto;
+}
